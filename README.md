@@ -43,7 +43,7 @@ The Expense Sharing App is a frontend application designed to help users split a
 
 ## Files
 - `GroupPage.js`: Manages group creation and transaction details.
-- `CreateModals.js`: Handles adding and splitting expenses.
+- `CreateGroupModals.js`: Handles adding and splitting expenses.
 - `Dashboard.js`: Displays summary and balances for each group.
 
 ## Future Improvements

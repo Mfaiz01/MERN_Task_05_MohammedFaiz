@@ -1,0 +1,32 @@
+
+.register {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.register-content {
+    flex: 1; 
+    padding: 20px;
+    text-align: center; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+input {
+    margin: 10px 0; 
+    padding: 10px;
+    width: 200px; 
+}
+
+button {
+    padding: 3px 10px; 
+    cursor: pointer; 
+    width: 100px; 
+    margin-top: 10px; 
+    font-size: 14px; 
+}

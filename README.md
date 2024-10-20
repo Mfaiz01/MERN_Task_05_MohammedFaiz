@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Task 5: Expense Sharing App
 
-## Available Scripts
+## Overview
+The Expense Sharing App is a frontend application designed to help users split and track shared expenses within a group. Users can create groups, add transactions, and divide expenses for trips or events.
 
-In the project directory, you can run:
+## Features
+- Create and manage groups for expense sharing.
+- Add transactions and split expenses among group members.
+- View a summary of expenses and balances for each group.
+- Supports various types of expenses like food, travel, and utilities.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home Page
+![Home Page](./src/Assets/s1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### register Page
+![register Page](./src/Assets/s2.png)
 
-### `npm test`
+### Group Page
+![Group Page](./src/Assets/s3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Transaction Form
+![Transaction Form](./src/Assets/s4.png)
 
-### `npm run build`
+## Technologies Used
+- **React** (Frontend)
+- **CSS** for styling
+- **React Router** for navigation
+- **Context API** for state management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Setup
+1. Clone the repository.
+2. Run `npm install` to install frontend dependencies.
+3. Start the app with `npm start`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Use
+1. Register or log in (if login functionality exists).
+2. Create a new group for a trip or event.
+3. Add expenses to the group and specify how much each member owes.
+4. View the breakdown of who owes whom and settle the balances.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Files
+- `GroupPage.js`: Manages group creation and transaction details.
+- `TransactionForm.js`: Handles adding and splitting expenses.
+- `Dashboard.js`: Displays summary and balances for each group.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Improvements
+- Add backend integration to store data persistently.
+- Implement payment integration to settle balances within the app.
+- Implement notifications for users when new expenses are added.
